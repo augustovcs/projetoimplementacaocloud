@@ -1,0 +1,17 @@
+Etapa 1:
+Nome da ferramenta: Amazon S3 Intelligent-Tiering
+Foco da ferramenta: Otimização do custo de armazenamento de dados
+Descrição de caso de uso: A empresa armazenava grandes volumes de dados com padrão de acesso imprevisível, gerando custos elevados com armazenamento padrão. Com o uso do Amazon S3 Intelligent-Tiering, foi possível reduzir os custos ao mover automaticamente os dados entre camadas de armazenamento conforme o padrão de acesso, sem impacto na performance e sem necessidade de intervenção manual.
+
+Etapa 2:
+Nome da ferramenta: AWS Lambda
+Foco da ferramenta: Redução de custos com execução de código sob demanda
+Descrição de caso de uso: Aplicações que executavam códigos em servidores EC2 de forma contínua foram migradas para funções Lambda, onde os recursos são cobrados apenas pelo tempo de execução efetivo. Isso gerou uma economia significativa com redução da necessidade de servidores dedicados e infraestrutura sempre ligada.
+
+Etapa 3:
+Nome da ferramenta: Amazon DynamoDB com DynamoDB Accelerator (DAX)
+Foco da ferramenta: Otimização de performance com redução de custo em banco NoSQL
+Descrição de caso de uso: Aplicações que dependiam de leituras intensivas e de baixa latência no banco DynamoDB passaram a utilizar o DAX, cache em memória integrado ao DynamoDB. Isso diminuiu as leituras diretas na base, reduzindo custos e aumentando a performance das aplicações.
+
+Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado a redução imediata dos custos operacionais, aumento da eficiência e melhoria na performance dos sistemas. O uso estratégico do Amazon S3 Intelligent-Tiering, AWS Lambda e DynamoDB com DAX resultou em economia direta e maior agilidade no processamento. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
